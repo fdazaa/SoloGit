@@ -42,6 +42,17 @@ func suma() {
 	//Para regresar a la calculadora
 	main()
 }
+func resta() {
+	println("Digite los numeros a restar")
+	print("Numero 1: ")
+	fmt.Scan(&a)
+	print("Numero 2: ")
+	fmt.Scan(&b)
+	println("La resta es: ", a-b)
+	//Para regresar a la calculadora
+	main()
+}
+
 func division() {
 	println("Digite los numeros a dividir")
 	print("Numero 1: ")
@@ -49,4 +60,6 @@ func division() {
 	print("Numero 2: ")
 	fmt.Scan(&d)
 	fmt.Printf("El cociente es: %f\n", c/d)
+	//Para regresar a la calculadora
+	main()
 }
