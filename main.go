@@ -8,7 +8,7 @@ func main() {
 
 }
 func suma() {
-	println("Escriba los numeros a sumar")
+	println("Digite los numeros a sumar")
 	print("Numero 1: ")
 	fmt.Scan(&a)
 	print("Numero 2: ")
