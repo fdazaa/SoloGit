@@ -1,2 +1,2 @@
 # SoloGit
-Pruebas Git
+Este código corresponde a la suma de dos numeros
