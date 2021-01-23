@@ -24,11 +24,11 @@ func main() {
 	case 1:
 		suma()
 	case 2:
-		println("RESTA")
+		resta()
 	case 3:
 		println("MULTIPLICACIÓN")
 	case 4:
-		println("DIVISIÓN")
+		division()
 	}
 }
 
@@ -39,8 +39,7 @@ func suma() {
 	print("Numero 2: ")
 	fmt.Scan(&b)
 	println("La suma es: ", a+b)
-	//Para regresar a la calculadora
-	main()
+	volver()
 }
 func resta() {
 	println("Digite los numeros a restar")
@@ -49,8 +48,7 @@ func resta() {
 	print("Numero 2: ")
 	fmt.Scan(&b)
 	println("La resta es: ", a-b)
-	//Para regresar a la calculadora
-	main()
+	volver()
 }
 
 func division() {
@@ -60,6 +58,16 @@ func division() {
 	print("Numero 2: ")
 	fmt.Scan(&d)
 	fmt.Printf("El cociente es: %f\n", c/d)
-	//Para regresar a la calculadora
-	main()
+	volver()
+}
+
+func volver() {
+	var volver int
+	fmt.Println("Presione 1 para volver")
+	fmt.Scan(&volver)
+	if volver == 1 {
+		main()
+	} else {
+		fmt.Println("Chao!")
+	}
 }
