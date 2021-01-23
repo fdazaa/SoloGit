@@ -11,5 +11,5 @@ func nombres() {
 	//AUTORES
 	println("Angie Sabogal")
 	println("Fredy Daza")
-	println("Mi nombre: Jhon Fredy Forero Rodriguez :)")
+	println("Jhon Forero")
 }
