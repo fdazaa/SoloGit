@@ -8,7 +8,7 @@ func main() {
 	division()
 }
 func division() {
-	println("Escriba los numeros a dividir")
+	println("Digite los numeros a dividir")
 	print("Numero 1: ")
 	fmt.Scan(&a)
 	print("Numero 2: ")
