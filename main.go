@@ -1,12 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
 	a := 2
 	b := 4
 	c := 5
-	fmt.Print(a + b + c)
+	println("La suma final es: ", a+b+c)
 }
