@@ -8,7 +8,7 @@ func main() {
 	resta()
 }
 func resta() {
-	println("Escriba los numeros a restar")
+	println("Digite los numeros a restar")
 	print("Numero 1: ")
 	fmt.Scan(&a)
 	print("Numero 2: ")
