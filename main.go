@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+var c, d float32
 var a, b int
 
 func main() {
@@ -40,4 +41,12 @@ func suma() {
 	println("La suma es: ", a+b)
 	//Para regresar a la calculadora
 	main()
+}
+func division() {
+	println("Digite los numeros a dividir")
+	print("Numero 1: ")
+	fmt.Scan(&c)
+	print("Numero 2: ")
+	fmt.Scan(&d)
+	fmt.Printf("El cociente es: %f\n", c/d)
 }
