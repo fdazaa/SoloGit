@@ -9,5 +9,6 @@ func main() {
 
 	//AUTORES
 	println("Fredy Daza")
+	println("Mi nombre: Jhon Fredy Forero Rodriguez :)")
 
 }
