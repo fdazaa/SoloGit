@@ -7,5 +7,6 @@ import (
 func main() {
 	a := 2
 	b := 4
-	fmt.Print(a + b)
+	c := 5
+	fmt.Print(a + b + c)
 }
