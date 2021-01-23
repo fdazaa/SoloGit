@@ -5,5 +5,12 @@ func main() {
 	b := 4
 	c := 5
 	println("La suma final es: ", a+b+c)
+<<<<<<< HEAD
 	println("Angie Sabogal")
+=======
+
+	//AUTORES
+	println("Fredy Daza")
+
+>>>>>>> refs/remotes/origin/master
 }
