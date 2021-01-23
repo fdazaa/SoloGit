@@ -2,16 +2,16 @@ package main
 
 import "fmt"
 
-var a, b int
+var a, b float32
 
 func main() {
-	multiplicacion()
+	division()
 }
-func multiplicacion() {
-	println("Escriba los numeros a multiplicar")
+func division() {
+	println("Escriba los numeros a dividir")
 	print("Numero 1: ")
 	fmt.Scan(&a)
 	print("Numero 2: ")
 	fmt.Scan(&b)
-	println("El producto es: ", a*b)
+	fmt.Printf("El cociente es: %f\n", a/b)
 }
