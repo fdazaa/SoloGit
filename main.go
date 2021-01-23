@@ -5,10 +5,11 @@ func main() {
 	b := 4
 	c := 5
 	println("La suma final es: ", a+b+c)
-	println("Angie Sabogal")
 
+}
+func nombres() {
 	//AUTORES
+	println("Angie Sabogal")
 	println("Fredy Daza")
 	println("Mi nombre: Jhon Fredy Forero Rodriguez :)")
-
 }
