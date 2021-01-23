@@ -8,7 +8,7 @@ func main() {
 	multiplicacion()
 }
 func multiplicacion() {
-	println("Escriba los numeros a multiplicar")
+	println("Digite los numeros a multiplicar")
 	print("Numero 1: ")
 	fmt.Scan(&a)
 	print("Numero 2: ")
