@@ -2,13 +2,10 @@ package main
 
 import "fmt"
 
-
-var operacion int
-
 var a, b int
 
-
 func main() {
+	var operacion int
 	fmt.Println("\nCALCULADORA GO")
 	fmt.Println("Digite el número del tipo de operacion a realizar")
 
@@ -24,7 +21,7 @@ func main() {
 
 	switch operacion {
 	case 1:
-		println("SUMA")
+		suma()
 	case 2:
 		println("RESTA")
 	case 3:
@@ -33,6 +30,7 @@ func main() {
 		println("DIVISIÓN")
 	}
 }
+
 func suma() {
 	println("Digite los numeros a sumar")
 	print("Numero 1: ")
@@ -40,4 +38,6 @@ func suma() {
 	print("Numero 2: ")
 	fmt.Scan(&b)
 	println("La suma es: ", a+b)
+	//Para regresar a la calculadora
+	main()
 }
