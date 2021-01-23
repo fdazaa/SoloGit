@@ -1,2 +1,2 @@
 # SoloGit
-Este código corresponde a la suma de dos numeros
+Este código corresponde a la resta de dos numeros

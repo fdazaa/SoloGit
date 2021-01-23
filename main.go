@@ -5,13 +5,13 @@ import "fmt"
 var a, b int
 
 func main() {
-
+	resta()
 }
-func suma() {
-	println("Escriba los numeros a sumar")
+func resta() {
+	println("Escriba los numeros a restar")
 	print("Numero 1: ")
 	fmt.Scan(&a)
 	print("Numero 2: ")
 	fmt.Scan(&b)
-	println("La suma es: ", a+b)
+	println("La resta es: ", a-b)
 }
