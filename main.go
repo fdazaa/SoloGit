@@ -26,7 +26,7 @@ func main() {
 	case 2:
 		resta()
 	case 3:
-		println("MULTIPLICACIÓN")
+		multiplicacion()
 	case 4:
 		division()
 	}
