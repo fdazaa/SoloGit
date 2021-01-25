@@ -41,6 +41,20 @@ func division() {
 	//volver()
 }
 
+func volver() {
+	var volver int
+	fmt.Println("\n------------")
+	fmt.Println("1 -> VOLVER \n2 -> SALIR")
+	fmt.Println("------------")
+	fmt.Println("__")
+	fmt.Print("> ")
+	fmt.Scan(&volver)
+	if volver == 1 {
+		main()
+	} else {
+		fmt.Println("\n֎ Bye! ֎")
+	}
+
 func porcentaje() {
 	var a, b float32
 	println("Digita un numero:")
