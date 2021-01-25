@@ -3,7 +3,33 @@ package main
 import "fmt"
 
 func main() {
-	porcentaje()
+	var operacion int
+	fmt.Println("\nCALCULADORA GO")
+	fmt.Println("Digite el número del tipo de operacion a realizar")
+
+	fmt.Println("\n(1) SUMA")
+	fmt.Println("(2) RESTA")
+	fmt.Println("(3) MULTIPLICACION")
+	fmt.Println("(4) DIVISIÓN")
+	fmt.Println("(5) PORCENTAJE")
+
+	fmt.Println("__")
+	fmt.Print("> ")
+	fmt.Scan(&operacion)
+	fmt.Println("")
+
+	switch operacion {
+	case 1:
+		suma()
+	case 2:
+		resta()
+	case 3:
+		multiplicacion()
+	case 4:
+		division()
+	case 5:
+		porcentaje()
+	}
 }
 
 var a, b float32 //inicializa las variables en un flotante de 32bits
@@ -54,9 +80,9 @@ func volver() {
 	} else {
 		fmt.Println("\n֎ Bye! ֎")
 	}
+}
 
 func porcentaje() {
-	var a, b float32
 	println("Digita un numero:")
 	fmt.Scan(&a)
 	println("Que porcentaje quieres saber?:")
