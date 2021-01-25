@@ -13,5 +13,5 @@ func multiplicacion() {
 	fmt.Scan(&a)
 	print("Numero 2: ")
 	fmt.Scan(&b)
-	println("El producto es: ", a*b)
+	println("El resultado de la multiplicacón es: ", a*b)
 }
