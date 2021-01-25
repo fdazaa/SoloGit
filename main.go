@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
+func main() {
+	porcentaje()
+}
+
 var a, b float32 //inicializa las variables en un flotante de 32bits
 
-func main() {
-	multiplicacion()
-}
 func opge() {
 	print("Numero 1: ")
 	fmt.Scan(&a)
@@ -38,4 +39,13 @@ func division() {
 	opge()
 	fmt.Printf("El cociente es: %.2f\n", a/b) //para limitar la cantidad de decimales usar .xf, donde x es el # de decimales
 	//volver()
+}
+
+func porcentaje() {
+	var a, b float32
+	println("Digita un numero:")
+	fmt.Scan(&a)
+	println("Que porcentaje quieres saber?:")
+	fmt.Scan(&b)
+	fmt.Printf("resultado: %.2f\n", (a*b)/100)
 }
