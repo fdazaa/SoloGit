@@ -72,15 +72,11 @@ func division() {
 
 func volver() {
 	var volver int
-	fmt.Println("\n------------")
-	fmt.Println("1 -> VOLVER \n2 -> SALIR")
-	fmt.Println("------------")
-	fmt.Println("__")
-	fmt.Print("> ")
+	fmt.Println("Presione 1 para volver")
 	fmt.Scan(&volver)
 	if volver == 1 {
 		main()
 	} else {
-		fmt.Println("\n֎ Bye! ֎")
+		fmt.Println("Chao!")
 	}
 }
