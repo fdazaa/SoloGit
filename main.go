@@ -69,6 +69,7 @@ func porcentaje() {
 	println("Que porcentaje quieres saber?:")
 	fmt.Scan(&b)
 	fmt.Printf("resultado: %.2f\n", (a*b)/100)
+	volver()
 }
 
 func opge() {
