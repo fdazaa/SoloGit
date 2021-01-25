@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	porcentaje()
+
 }
 
 var a, b float32 //inicializa las variables en un flotante de 32bits
@@ -42,7 +42,6 @@ func division() {
 }
 
 func porcentaje() {
-	var a, b float32
 	println("Digita un numero:")
 	fmt.Scan(&a)
 	println("Que porcentaje quieres saber?:")
